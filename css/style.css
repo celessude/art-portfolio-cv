@@ -181,3 +181,20 @@ li:nth-child(even) {
 }
 
 
+.inline-h{
+    display: inline;   
+}
+
+footer {
+    background-image: url("../profile/banner.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    padding: 50px 0 25px 0;
+    
+}
+
+.bottom{
+    margin-top: 50px;
+}
