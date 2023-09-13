@@ -46,9 +46,11 @@ header {
 }
 
 header p{
-    font-family: var(--font-text);
-    font-size: 1.5rem;
-    font-weight: 200;
+    padding-top: 15px;
+    font-family: var(--font-title);
+    /* text-transform: uppercase; */
+    font-size: 1rem;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -66,7 +68,7 @@ h2{
     font-size: 1.1rem;
     text-transform: uppercase;
     text-align: center;
-    padding: 1rem;
+    padding: .9rem 0 .7rem 0;
     background: var(--color-gradient-1);
 }
 
@@ -105,9 +107,10 @@ section{
 
 li {
     padding: 7px 9px;
-    text-align: justify;
+    text-align: left;
     font-family: var(--font-text);
     font-size: 1.1rem;
+    list-style-type: none;
 }
 
 li:nth-child(odd) {
