@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+:root{
+    --font-title: 'Josefin Sans', sans-serif;
+
+    --font-text: 'Quicksand', sans-serif;
+
+    --color-1: #FFFFFF;
+    --color-2: #1f1f1f;
+
+    --color-back: #000000;
+
+    --color-link: #00d9ff;
+
+    --color-gradient-1:linear-gradient(to right, #000000, #533b6b);
+
+    --color-gradient-2:linear-gradient(to right, #2c2038, #000000);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: var(--color-1);
+    
+
+}
+
+body {
+    background-color: var(--color-back);
+    margin:  auto;
+    padding: 15px;
+    justify-content: center;
+    max-width: 720px;    
+}
+
+header {
+    background-image: url("../profile/banner.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    padding: 50px 0 25px 0;
+    
+}
+
+header p{
+    font-family: var(--font-text);
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+h1{
+    font-family: var(--font-title);
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 25px 0 0 0;
+}
+
+h2{
+    font-family: var(--font-title);
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    background: var(--color-gradient-1);
+}
+
+div{
+    padding-bottom: 25px;
+}
+
+h3{
+    font-family: var(--font-title);
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: left;
+    padding: 15px 10px 10px 10px;
+    text-transform: uppercase;
+    background: var(--color-gradient-2);
+}
+
+section{
+    margin: 0 auto;
+    padding:0 0 50px 0;
+}
+
+
+
+.img_container{
+    text-align: center;
+}
+
+.profile_pic{
+    border-radius: 50%;
+    max-width: 20%;
+    margin: auto;
+    display: block;
+}
+
+
+li {
+    padding: 7px 9px;
+    text-align: justify;
+    font-family: var(--font-text);
+    font-size: 1.1rem;
+}
+
+li:nth-child(odd) {
+    background-color: var(--color-2);
+    padding: auto;
+    list-style-position: inside;
+    
+}
+
+li:nth-child(even) {
+    padding: auto;
+    list-style-position: inside;
+    
+}
+
+.portfolio a:link { text-decoration: none; 
+    color: var(--color-link);}
+
+
+.portfolio a:visited { text-decoration: none;
+    color: var(--color-link); }
+
+
+.portfolio a:hover { text-decoration: none; 
+    color: var(--color-link);}
+
+
+.portfolio a:active { text-decoration: none; 
+    color: var(--color-link);}
+
+
+
+
+.mail a:link { text-decoration: none; 
+    color: var(--color-1);}
+
+
+.mail a:visited { text-decoration: none;
+    color: var(--color-1); }
+
+
+.mail a:hover { text-decoration: none; 
+    color: var(--color-1);}
+
+
+.mail a:active { text-decoration: none; 
+    color: var(--color-1);}
+
+
+
+
+.portfolio_image{
+    max-width: 100%;
+}
+
+
+
+.flex-container{
+    display: flex;
+    width: 100%;
+    
+}
+
+.flex-child{
+    width: 100%;
+    height:100%;
+    
+}
+
+
