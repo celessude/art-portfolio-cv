@@ -7,10 +7,14 @@
 
     --font-text: 'Quicksand', sans-serif;
 
+    --color-selection: #573f6f;
+
     --color-1: #FFFFFF;
     --color-2: #1f1f1f;
 
     --color-back: #000000;
+
+    --color-rights: #2e1b43;
 
     --color-portfolio: #13aff0;
 
@@ -32,7 +36,7 @@
 }
 
 *::selection{
-    background: #573f6f;
+    background: var(--color-selection);
     
 }
 
@@ -61,6 +65,7 @@ header p{
     font-size: 1rem;
     font-weight: 400;
     text-align: center;
+    text-shadow: var(--color-back) 0 0 3px;
 }
 
 h1{
@@ -69,6 +74,7 @@ h1{
     font-size: 1.35rem;
     text-align: center;
     padding: 25px 0 0 0;
+    text-shadow: var(--color-back) 0 0 3px;
 }
 
 h2{
@@ -111,7 +117,7 @@ section{
     max-width: 20%;
     margin: auto;
     display: block;
-    border: .2rem solid #000;
+    border: .2rem solid var(--color-back);
 }
 
 
@@ -279,7 +285,7 @@ footer h4 {
     font-size: .65rem;
     font-weight: 100;
     /* background: var(--color-2); */
-    background-color: #2e1b43;
+    background-color: var(--color-rights);
     display: inline-block;
     width: 100%;
     padding: 5px 0;
