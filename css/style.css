@@ -29,8 +29,11 @@
     margin: 0;
     padding: 0;
     color: var(--color-1);
-    
+}
 
+*::selection{
+    background: #573f6f;
+    
 }
 
 body {
