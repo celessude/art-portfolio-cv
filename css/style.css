@@ -228,7 +228,7 @@ li.mail a {
     text-decoration: none; 
     /* color: var(--color-mail); */
     position: absolute;
-    transform: translate(.5rem,.05rem);
+    transform: translate(.5rem,.15rem);
     
 }
 
