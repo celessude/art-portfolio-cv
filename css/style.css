@@ -28,11 +28,6 @@
 
     --color-gradient-3:linear-gradient(to right, #1f1f1f, #000000);
 
-
-
-    --color-img-1:linear-gradient(to bottom, #000000, #533b6b);
-
-
 }
 
 *{
@@ -43,7 +38,6 @@
 
 *::selection{
     background: var(--color-selection);
-    
 }
 
 body {
@@ -171,7 +165,7 @@ li:nth-child(even) {
 
 
 .linking{
-    bottom: .6rem;
+    bottom: .7rem;
     left: .5rem;
     position: absolute;
     z-index: 2;
@@ -216,7 +210,6 @@ li:nth-child(even) {
 
 
 .bottom{
-    
     font-family: var(--font-title);
     font-weight: 500;
     font-size: 1.5rem;
@@ -233,7 +226,6 @@ li:nth-child(even) {
 }
 
 .color-link-b {
-    
     width: 1.25rem;
     align-self: center;
     padding-top: 3px;   
@@ -273,7 +265,6 @@ li.portfolio p {
 
 
 footer h4 { 
-    
     font-family: var(--font-title);
     font-weight: 500;
     font-size: 1.5rem;
@@ -286,7 +277,6 @@ footer h4 {
     color: var(--color-linkedin);
     
     margin: 0 auto;
-    
 }
 
 .rights-t{
