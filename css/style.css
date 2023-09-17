@@ -27,6 +27,12 @@
     --color-gradient-2:linear-gradient(to right, #2c2038, #000000);
 
     --color-gradient-3:linear-gradient(to right, #1f1f1f, #000000);
+
+
+
+    --color-img-1:linear-gradient(to bottom, #000000, #533b6b);
+
+
 }
 
 *{
@@ -118,6 +124,7 @@ section{
 
 .img_container{
     text-align: center;
+    position: relative;
 }
 
 .profile_pic{
@@ -159,8 +166,23 @@ li:nth-child(even) {
 .portfolio_image{
     max-width: 100%;
     border-radius: 0 3px 3px 3px;
+    z-index: 1;
 }
 
+
+.linking{
+    bottom: .6rem;
+    left: .5rem;
+    position: absolute;
+    z-index: 2;
+}
+
+.linking-bottom{
+    bottom: .3rem;
+    left: .32rem;
+    position: absolute;
+    z-index: 2;
+}
 
 .flex-container{
     display: flex;
@@ -172,6 +194,7 @@ li:nth-child(even) {
 .flex-child{
     width: 100%;
     height:100%;
+    border-radius: 3px 3px 3px 3px;
     
 }
 
@@ -206,10 +229,15 @@ li:nth-child(even) {
     filter: invert(100%);
     width: 1.25rem;
     align-self: center;
-    padding-top: 3px;
-    
+    padding-top: 3px;   
 }
 
+.color-link-b {
+    
+    width: 1.25rem;
+    align-self: center;
+    padding-top: 3px;   
+}
 
 .mail a, .portfolio a, .linkedin a{
     text-decoration: none;
@@ -217,28 +245,29 @@ li:nth-child(even) {
 
 
 
-li.portfolio a { 
-    text-decoration: none; 
-    /* color: var(--color-portfolio); */
-    position: absolute;
-    transform: translateX(.5rem);
-}
 
-
-li.mail a { 
+li.mail p{
+    display: inline;
     text-decoration: none; 
     /* color: var(--color-mail); */
     position: absolute;
     transform: translate(.5rem,.15rem);
-    
 }
 
-
-li.linkedin a { 
+li.linkedin p {
+    display: inline;
     text-decoration: none; 
     /* color: var(--color-linkedin); */
     position: absolute;
     transform: translate(.5rem,.2rem);
+}
+
+li.portfolio p {
+    display: inline;
+    text-decoration: none; 
+    /* color: var(--color-linkedin); */
+    position: absolute;
+    transform: translate(.5rem,0);
 }
 
 
@@ -319,8 +348,11 @@ footer h4 {
 }
 
 
+
 @media only screen and (orientation: portrait) {
     body {
         max-width: 90%;
     }
   }
+
+
