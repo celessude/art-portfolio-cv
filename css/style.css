@@ -47,7 +47,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 0 auto;
+    margin: 3% auto 0 auto;
     padding: 50px 0 25px 0;
     border-radius: 3px;
 }
@@ -318,6 +318,10 @@ footer h4 {
 
 
 .rights-b{
+    position: absolute;
+    left: 50%;
+    bottom: 80%;
+    transform: translate(-50%, 0%);
     text-align: center;
     color: var(--color-1);
     font-family: var(--font-text);
@@ -327,16 +331,17 @@ footer h4 {
     /* background-color: var(--color-rights); */
     background-color: var(--color-2);
     display: inline-block;
-    width: 97%;
+    width: 99%;
     padding: 5px 5px;
     border-radius: 3px;
+    /* transform: translatey(-80%); */
 }
 
 .bottom-arrowup {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -30%);
 }
 
 .img-bottom{
