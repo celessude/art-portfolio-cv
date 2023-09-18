@@ -386,6 +386,14 @@ footer h4 {
     body {
         max-width: 90%;
     }
+
+    header p{
+        font-size: .84rem;
+    }
+    
+    h1{
+        font-size: 1.1rem;
+    }
   }
 
 
