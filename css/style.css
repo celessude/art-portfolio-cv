@@ -294,10 +294,27 @@ footer h4 {
     border-radius: 3px;
     /* text-transform: uppercase; */
     /* text-shadow: var(--color-back) 0 0 3px; */
-
-    
 }
 
+
+.rights-end-b{
+    text-align: center;
+    color: var(--color-1);
+    font-family: var(--font-text);
+    font-size: .7rem;
+    font-weight: 100;
+    /* background: var(--color-2); */
+    
+    /* background: var(--color-2); */
+    /* display: inline-block; */
+    width: 100%;
+    /* padding: 0 0 12px 0; */
+    /* padding: 25px; */
+    /* padding: 12px 0 12px 0; */
+    border-radius: 3px;
+    /* text-transform: uppercase; */
+    /* text-shadow: var(--color-back) 0 0 3px; */
+}
 
 
 .rights-b{
