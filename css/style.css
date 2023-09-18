@@ -327,8 +327,8 @@ footer h4 {
     font-family: var(--font-text);
     font-size: .60rem;
     font-weight: 100;
-    /* background: var(--color-2); */
-    background-color: var(--color-selection);
+    /* background: var(--color-gradient-3); */
+    /* background-color: var(--color-selection); */
     /* background-color: var(--color-2); */
     display: inline-block;
     width: 99%;
