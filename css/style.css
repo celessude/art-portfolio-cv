@@ -294,13 +294,14 @@ footer h4 {
 .rights-end{
     text-align: center;
     color: var(--color-1);
-    font-family: var(--font-title);
-    font-size: 1rem;
+    font-family: var(--font-text);
+    font-size: .9rem;
     font-weight: 100;
     /* background: var(--color-2); */
     display: inline-block;
     width: 100%;
-    padding: 5px 0;
+    padding: 12px 0;
+    /* text-transform: uppercase; */
 }
 
 
@@ -323,10 +324,12 @@ footer h4 {
     /* opacity: 84%; */
     /* margin: 0 auto; */
     /* padding-top: 25px; */
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    
+
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    z-index: 2;
 }
 
 .img-bottom{
