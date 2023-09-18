@@ -325,9 +325,10 @@ footer h4 {
     /* margin: 0 auto; */
     /* padding-top: 25px; */
     
-
+    
     position: absolute;
-    left: 50%;
+    left: 48%;
+    /* right: 50%; */
     bottom: 50%;
     z-index: 2;
 }
