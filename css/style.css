@@ -214,9 +214,10 @@ li:nth-child(even) {
 }
 
 .color-link-b {
+    /* filter: invert(100%); */
     width: 1.25rem;
     align-self: center;
-    padding-top: 3px;   
+    padding-top: 3px;
 }
 
 .mail a, .portfolio a, .linkedin a{
@@ -280,16 +281,21 @@ footer h4 {
     text-align: center;
     color: var(--color-1);
     font-family: var(--font-text);
-    font-size: .9rem;
+    font-size: 1rem;
     font-weight: 100;
     /* background: var(--color-2); */
+    
     /* background: var(--color-2); */
-    display: inline-block;
+    /* display: inline-block; */
     width: 100%;
-    padding: 0 0 12px 0;
+    /* padding: 0 0 12px 0; */
+    /* padding: 25px; */
+    padding: 12px 0 12px 0;
     border-radius: 3px;
     /* text-transform: uppercase; */
-    text-shadow: var(--color-back) 0 0 3px;
+    /* text-shadow: var(--color-back) 0 0 3px; */
+
+    
 }
 
 
