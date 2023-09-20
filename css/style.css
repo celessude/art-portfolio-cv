@@ -283,7 +283,8 @@ footer h4 {
     color: var(--color-1);
     font-family: var(--font-text);
     /* font-size: 1rem; */
-    font-size: .8rem;
+    /* font-size: .8rem; */
+    font-size: 10vw*25%;
     font-weight: 100;
     /* background: var(--color-2); */
     
