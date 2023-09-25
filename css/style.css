@@ -379,6 +379,7 @@ footer h4 {
 @media only screen and (orientation: portrait) {
     body {
         max-width: 90%;
+        
     }
 
     header p, .rights-end{
