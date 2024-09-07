@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
@@ -146,7 +145,7 @@ li:nth-child(even) {
     list-style-position: inside;
 }
 
-.youtube{
+.drive{
     border-radius: 3px 0 0 0;
 }
 
@@ -171,6 +170,13 @@ li:nth-child(even) {
 
 .linking-bottom{
     bottom: .3rem;
+    left: .32rem;
+    position: absolute;
+    z-index: 2;
+}
+
+.linking-youtube{
+    top: .1rem;
     left: .32rem;
     position: absolute;
     z-index: 2;
