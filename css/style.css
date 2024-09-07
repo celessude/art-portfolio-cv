@@ -145,6 +145,10 @@ li:nth-child(even) {
     list-style-position: inside;
 }
 
+.youtube{
+    border-radius: 3px 0 0 0;
+}
+
 .portfolio{
     border-radius: 3px 0 0 0;
 }
@@ -221,7 +225,7 @@ li:nth-child(even) {
     padding-top: 3px;
 }
 
-.mail a, .portfolio a, .linkedin a{
+.mail a, .portfolio a, .linkedin a, .youtube a{
     text-decoration: none;
 }
 
@@ -251,6 +255,13 @@ li.portfolio p {
     transform: translate(.5rem,0);
 }
 
+li.youtube p {
+    display: inline;
+    text-decoration: none; 
+    /* color: var(--color-linkedin); */
+    position: absolute;
+    transform: translate(.5rem,0);
+}
 
 
 footer h4 { 
