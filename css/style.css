@@ -225,7 +225,7 @@ li:nth-child(even) {
     padding-top: 3px;
 }
 
-.mail a, .portfolio a, .linkedin a, .youtube a{
+.mail a, .portfolio a, .linkedin a, .youtube a, .drive a{
     text-decoration: none;
 }
 
@@ -244,7 +244,7 @@ li.linkedin p {
     text-decoration: none; 
     /* color: var(--color-linkedin); */
     position: absolute;
-    transform: translate(.5rem,.2rem);
+    transform: translate(.5rem,.15rem);
 }
 
 li.portfolio p {
@@ -252,7 +252,7 @@ li.portfolio p {
     text-decoration: none; 
     /* color: var(--color-linkedin); */
     position: absolute;
-    transform: translate(.5rem,0);
+    transform: translate(.5rem,.05rem);
 }
 
 li.youtube p {
@@ -260,10 +260,16 @@ li.youtube p {
     text-decoration: none; 
     /* color: var(--color-linkedin); */
     position: absolute;
-    transform: translate(.5rem,0);
+    transform: translate(.5rem,0.05rem);
 }
 
-
+li.drive p {
+    display: inline;
+    text-decoration: none; 
+    /* color: var(--color-linkedin); */
+    position: absolute;
+    transform: translate(.5rem,0rem);
+}
 
 
 footer h4 { 
